@@ -152,4 +152,22 @@ form {
     border-color: #4285f4;
 }
 
+.cta-btn {
+    width: 100%;
+    padding: 14px;
+    background-color: #4285f4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 15px;
+    transition: background-color 0.3s;
+}
+
+.cta-btn:hover {
+    background-color: #357ae8;
+}
+
 
