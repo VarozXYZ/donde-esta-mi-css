@@ -51,4 +51,43 @@ form {
     text-decoration: underline;
 }
 
+.social-login {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.google-btn,
+.fb-btn {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s;
+}
+
+.google-btn:hover,
+.fb-btn:hover {
+    background-color: #f9f9f9;
+}
+
+.google-btn img,
+.fb-btn img {
+    width: 20px;
+    height: 20px;
+}
+
+.btn-text {
+    margin: 0;
+    color: #333;
+    font-size: 14px;
+}
+
 
